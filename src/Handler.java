@@ -3,22 +3,20 @@ import java.util.ArrayList;
 
 public class Handler
     {
-    ArrayList<GameObject> objects = new ArrayList<>();
+    private ArrayList<GameObject> objects = new ArrayList<>();
 
     public void tick()
         {
-        for (int i = 0; i < objects.size(); i++)
+        for (GameObject tempObject : objects)
             {
-            GameObject tempObject = objects.get(i);
             tempObject.tick();
             }
         }
 
     public void paint(Graphics g)
         {
-        for (int i = 0; i < objects.size(); i++)
+        for (GameObject tempObject : objects)
             {
-            GameObject tempObject = objects.get(i);
             tempObject.paint(g);
             }
         }
