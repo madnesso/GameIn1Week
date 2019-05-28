@@ -1,10 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Windows extends Canvas
+public class Windows extends JFrame
     {
-
-    private static final long serialVersionUID = 802980368275219408L;
+    private static final long serialVersionUID = 2727454497246459180L;
 
     //,Game game)
     public Windows(int width, int height, String tittle)
