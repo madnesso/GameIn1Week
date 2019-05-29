@@ -3,7 +3,8 @@ import java.awt.*;
 
 public class Windows extends JFrame
     {
-    private static final long serialVersionUID = 2727454497246459180L;
+
+    private static final long serialVersionUID = 6142265490542491944L;
 
     public Windows(int width, int height, String tittle)
         {
