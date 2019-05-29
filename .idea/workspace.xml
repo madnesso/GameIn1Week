@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd90825-b401-4450-8742-16a421532a39" name="Default Changelist" comment="Cleaning Up">
-      <change afterPath="$PROJECT_DIR$/src/Healer.java" afterDir="false" />
+    <list default="true" id="9dd90825-b401-4450-8742-16a421532a39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Enmey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Healer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
@@ -68,6 +69,19 @@
               <folding>
                 <element signature="e#91#92#0" expanded="true" />
                 <element signature="e#126#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Enmey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="128" selection-start-line="2" selection-start-column="128" selection-end-line="2" selection-end-column="128" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/Units.java" />
         <option value="$PROJECT_DIR$/src/Worrior.java" />
         <option value="$PROJECT_DIR$/src/Healer.java" />
+        <option value="$PROJECT_DIR$/src/Enmey.java" />
       </list>
     </option>
   </component>
@@ -199,7 +214,7 @@
       <workItem from="1559076005052" duration="416000" />
       <workItem from="1559076444171" duration="71000" />
       <workItem from="1559078407205" duration="3524000" />
-      <workItem from="1559093411529" duration="958000" />
+      <workItem from="1559093411529" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaning Up">
       <created>1559079047398</created>
@@ -229,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559093747727</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cleaning Up">
+      <created>1559094375451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559094375451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers>
       <GitHub url="https://github.com">
         <option name="repoAuthor" value="mandesso" />
@@ -238,7 +260,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9245000" />
+    <option name="totallyTimeSpent" value="9527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -375,6 +397,17 @@
           <folding>
             <element signature="e#91#92#0" expanded="true" />
             <element signature="e#126#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enmey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="128" selection-start-line="2" selection-start-column="128" selection-end-line="2" selection-end-column="128" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
           </folding>
         </state>
       </provider>
