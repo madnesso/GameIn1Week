@@ -42,6 +42,7 @@ public class Tower extends GameObject
             {
             Health = castleHealth;
             }
+        else { Health = 1000; }
         }
 
 
