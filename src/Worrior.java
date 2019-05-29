@@ -1,7 +1,8 @@
 public class Worrior extends Units
     {
-    public Worrior(float x, float y, ID id)
+    public Worrior(float x, float y, ID id, Handler handler)
         {
-        super(x, y, id);
+        super(x, y, id, handler);
         }
     }
+
