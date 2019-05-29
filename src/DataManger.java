@@ -12,13 +12,13 @@ public class DataManger implements Serializable
     public String addUser(String name, String id, String password)
         {
         User tempUser = new User(name, id, password);
-        for (int i = 0; i < users.size(); i++)
+        for (User user : users)
             {
-            if (users.get(i).getId().equals(id))
+            if (user.getId().equals(id))
                 {
                 return "ID already exists.";
                 }
-            else if (users.get(i).getPassword().equals(password))
+            else if (user.getPassword().equals(password))
                 {
                 return "Password already exists.";
                 }
@@ -28,11 +28,11 @@ public class DataManger implements Serializable
         return "User added succesfully";
         }
 
-    public void map()
+    private void map()
         {
-        for (int i = 0; i < users.size(); i++)
+        for (User user : users)
             {
-            data.put(users.get(i).getId(), users.get(i).getPassword());
+            data.put(user.getId(), user.getPassword());
             }
         }
 

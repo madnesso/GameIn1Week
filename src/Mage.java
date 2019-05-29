@@ -1,12 +1,15 @@
+import java.awt.*;
+
 public class Mage extends Units
     {
     private int mana;
     private boolean hasmana = false;
 
-    public Mage(float x, float y, ID id, Handler handler)
+    public Mage(ID id, Point point, Dimension dimension)
         {
-        super(x, y, id, handler);
+        super(id, point, dimension);
         }
+
 
     public int getMana()
         {

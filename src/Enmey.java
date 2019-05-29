@@ -9,7 +9,7 @@ public class Enmey extends GameObject
 
     public Enmey(float x, float y, ID id, Handler handler)
         {
-        super(x, y, id);
+        super(id, point, dimension);
         this.handler = handler;
         }
 

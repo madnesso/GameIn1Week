@@ -1,11 +1,9 @@
+import java.awt.*;
+
 public class Archer extends Units
     {
-
-
-    public Archer(float x, float y, ID id, Handler handler)
+    public Archer(ID id, Point point, Dimension dimension)
         {
-        super(x, y, id, handler);
+        super(id, point, dimension);
         }
     }
-
-

@@ -1,8 +1,12 @@
+import java.awt.*;
+
 public class Worrior extends Units
     {
-    public Worrior(float x, float y, ID id, Handler handler)
+    public Worrior(ID id, Point point, Dimension dimension)
         {
-        super(x, y, id, handler);
+        super(id, point, dimension);
         }
     }
+
+
 

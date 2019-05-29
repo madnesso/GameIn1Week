@@ -2,55 +2,15 @@ import java.awt.*;
 
 public abstract class GameObject
     {
-    protected float x, y;
-    protected float velX, velY;
+    protected Point point;
+    protected Dimension dimension;
     private ID id;
 
-    public GameObject(float x, float y, ID id)
+    public GameObject(ID id, Point point, Dimension dimension)
         {
-        this.x = x;
-        this.y = y;
         this.id = id;
-        }
-
-    public float getX()
-        {
-        return x;
-        }
-
-    public void setX(float x)
-        {
-        this.x = x;
-        }
-
-    public float getY()
-        {
-        return y;
-        }
-
-    public void setY(float y)
-        {
-        this.y = y;
-        }
-
-    public float getVelX()
-        {
-        return velX;
-        }
-
-    public void setVelX(float velX)
-        {
-        this.velX = velX;
-        }
-
-    public float getVelY()
-        {
-        return velY;
-        }
-
-    public void setVelY(float velY)
-        {
-        this.velY = velY;
+        this.point = point;
+        this.dimension = dimension;
         }
 
     public ID getId()
@@ -61,6 +21,26 @@ public abstract class GameObject
     public void setId(ID id)
         {
         this.id = id;
+        }
+
+    public Point getPoint()
+        {
+        return point;
+        }
+
+    public void setPoint(Point point)
+        {
+        this.point = point;
+        }
+
+    public Dimension getDimension()
+        {
+        return dimension;
+        }
+
+    public void setDimension(Dimension dimension)
+        {
+        this.dimension = dimension;
         }
 
     public abstract void tick();

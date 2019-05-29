@@ -8,11 +8,11 @@ public class Tower extends GameObject
     private int Health = 1000;
     private Handler handler;
 
-    public Tower(float x, float y, ID id, Handler handler)
+    public Tower(ID id, Point point, Dimension dimension)
         {
-        super(x, y, id);
-        this.handler = handler;
+        super(id, point, dimension);
         }
+
 
     @Override
     public void tick()

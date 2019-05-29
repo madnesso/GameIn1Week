@@ -8,11 +8,11 @@ public class Units extends GameObject
     private boolean AttackCd;
     private Handler handler;
 
-    public Units(float x, float y, ID id, Handler handler)
+    public Units(ID id, Point point, Dimension dimension)
         {
-        super(x, y, id);
-        this.handler = handler;
+        super(id, point, dimension);
         }
+
 
     public int getHealth()
         {

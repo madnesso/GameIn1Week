@@ -1,12 +1,15 @@
+import java.awt.*;
+
 public class Healer extends Units
     {
     private int mana;
     private boolean hasmana = false;
 
-    public Healer(float x, float y, ID id, Handler handler)
+    public Healer(ID id, Point point, Dimension dimension)
         {
-        super(x, y, id, handler);
+        super(id, point, dimension);
         }
+
 
     public int getMana()
         {
