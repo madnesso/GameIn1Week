@@ -12,11 +12,16 @@ public class tower extends GameObject{
     {
         super(x, y, id);
         this.h=handler;
+        h.addObject(this);
     }
 
     @Override
     public void tick() {
 
+        if (health==0){
+            h.removeObject(this);
+
+}
     }
 
     @Override
