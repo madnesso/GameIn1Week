@@ -16,7 +16,7 @@ public class MouseInput extends MouseAdapter
 
         if (px > x && px < x + width)
             {
-            //this will return true or false nice logic
+            //this will return true or false 3la 7asb el y  nice logic
             return py > y && py < y + height;
             }
         else { return false; }
