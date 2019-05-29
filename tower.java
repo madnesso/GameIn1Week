@@ -18,7 +18,7 @@ public class tower extends GameObject{
     @Override
     public void tick() {
 
-        if (health==0){
+        if (health<=0){
             h.removeObject(this);
 
 }
