@@ -5,7 +5,7 @@ public class Tower extends GameObject
 
     private int hight;
     private int width;
-    private int health = 1000;
+    private int Health = 1000;
     private Handler handler;
 
     public Tower(float x, float y, ID id, Handler handler)
@@ -18,7 +18,7 @@ public class Tower extends GameObject
     public void tick()
         {
 
-        if (health <= 0)
+        if (Health <= 0)
             {
             handler.removeObject(this);
 
@@ -33,14 +33,14 @@ public class Tower extends GameObject
 
     public int getCastleHealth()
         {
-        return health;
+        return Health;
         }
 
     public void setCastleHealth(int castleHealth)
         {
-        if (health <= 1000)
+        if (Health <= 1000)
             {
-            health = castleHealth;
+            Health = castleHealth;
             }
         }
 
