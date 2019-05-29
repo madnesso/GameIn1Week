@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd90825-b401-4450-8742-16a421532a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Units.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Worrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ID.java" afterDir="false" />
+    <list default="true" id="9dd90825-b401-4450-8742-16a421532a39" name="Default Changelist" comment="Cleaning Up">
+      <change afterPath="$PROJECT_DIR$/src/Healer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,17 +45,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Units.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="220">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Worrior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Worrior.java">
+        <entry file="file://$PROJECT_DIR$/src/Healer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="20">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding>
+                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,11 +95,12 @@
         <option value="$PROJECT_DIR$/src/GameObject.java" />
         <option value="$PROJECT_DIR$/src/Windows.java" />
         <option value="$PROJECT_DIR$/src/Handler.java" />
-        <option value="$PROJECT_DIR$/src/Units.java" />
-        <option value="$PROJECT_DIR$/src/Worrior.java" />
         <option value="$PROJECT_DIR$/src/Archer.java" />
         <option value="$PROJECT_DIR$/src/Mage.kt" />
         <option value="$PROJECT_DIR$/src/Mage.java" />
+        <option value="$PROJECT_DIR$/src/Units.java" />
+        <option value="$PROJECT_DIR$/src/Worrior.java" />
+        <option value="$PROJECT_DIR$/src/Healer.java" />
       </list>
     </option>
   </component>
@@ -190,7 +199,7 @@
       <workItem from="1559076005052" duration="416000" />
       <workItem from="1559076444171" duration="71000" />
       <workItem from="1559078407205" duration="3524000" />
-      <workItem from="1559093411529" duration="287000" />
+      <workItem from="1559093411529" duration="958000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaning Up">
       <created>1559079047398</created>
@@ -213,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559083466634</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cleaning Up">
+      <created>1559093747727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559093747727</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <GitHub url="https://github.com">
         <option name="repoAuthor" value="mandesso" />
@@ -222,7 +238,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8574000" />
+    <option name="totallyTimeSpent" value="9245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -275,6 +291,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Cleaning Up" />
     <option name="LAST_COMMIT_MESSAGE" value="Cleaning Up" />
   </component>
@@ -294,13 +312,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package.json" />
-    <entry file="file://$PROJECT_DIR$/src/Units.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -343,10 +354,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Units.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Worrior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="96">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Healer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
