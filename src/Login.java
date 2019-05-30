@@ -42,7 +42,11 @@ public class Login extends MouseInput
         JButton tempbtn = (JButton) e.getSource();
         if (tempbtn == loginbtn)
             {
-            //do a thing
+            if (dm.check(usertxt.getText(), passwordtxt.getText()).equals("User exists"))
+                {
+
+                }
+            else { System.out.println(dm.check(usertxt.getText(), passwordtxt.getText())); }
             }
         else if (tempbtn == registerbtn)
             {

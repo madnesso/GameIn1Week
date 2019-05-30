@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dd90825-b401-4450-8742-16a421532a39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,10 +27,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="422">
+              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DataManger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="99" column="57" lean-forward="true" selection-start-line="99" selection-start-column="57" selection-end-line="99" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#addUser#0;class#DataManger#0" />
+                <element signature="method#map#0;class#DataManger#0" />
+                <element signature="method#removeUser#0;class#DataManger#0" />
+                <element signature="method#saveUsers#0;class#DataManger#0" />
+                <element signature="method#loadUsers#0;class#DataManger#0" />
+                <element signature="method#clearData#0;class#DataManger#0" />
               </folding>
             </state>
           </provider>
@@ -247,7 +264,7 @@
       <workItem from="1559076444171" duration="71000" />
       <workItem from="1559078407205" duration="3524000" />
       <workItem from="1559093411529" duration="11286000" />
-      <workItem from="1559170480668" duration="6143000" />
+      <workItem from="1559170480668" duration="6449000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaning Up">
       <created>1559079047398</created>
@@ -368,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559182893603</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="No idea what I am doing :3">
+      <created>1559183467694</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559183467694</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers>
       <GitHub url="https://github.com">
         <option name="repoAuthor" value="mandesso" />
@@ -377,7 +401,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25716000" />
+    <option name="totallyTimeSpent" value="26022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -588,23 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataManger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addUser#0;class#DataManger#0" />
-            <element signature="method#map#0;class#DataManger#0" />
-            <element signature="method#removeUser#0;class#DataManger#0" />
-            <element signature="method#saveUsers#0;class#DataManger#0" />
-            <element signature="method#loadUsers#0;class#DataManger#0" />
-            <element signature="method#check#0;class#DataManger#0" />
-            <element signature="method#clearData#0;class#DataManger#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/java/jdk1.8.0_201/src.zip!/java/awt/event/MouseAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -640,10 +647,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataManger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="99" column="57" lean-forward="true" selection-start-line="99" selection-start-column="57" selection-end-line="99" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addUser#0;class#DataManger#0" />
+            <element signature="method#map#0;class#DataManger#0" />
+            <element signature="method#removeUser#0;class#DataManger#0" />
+            <element signature="method#saveUsers#0;class#DataManger#0" />
+            <element signature="method#loadUsers#0;class#DataManger#0" />
+            <element signature="method#clearData#0;class#DataManger#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="422">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
