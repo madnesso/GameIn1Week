@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseEvent;
 
 public class Login extends MouseInput
     {
@@ -35,5 +36,18 @@ public class Login extends MouseInput
         windows.setVisible(true);
         }
 
+    @Override
+    public void mouseClicked(MouseEvent e)
+        {
+        JButton tempbtn = (JButton) e.getSource();
+        if (tempbtn == loginbtn)
+            {
+            //do a thing
+            }
+        else if (tempbtn == registerbtn)
+            {
+            //do another thing
+            }
+        }
 
     }
