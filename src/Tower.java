@@ -5,7 +5,7 @@ public class Tower extends GameObject
 
     private int hight;
     private int width;
-    private int Health = 1000;
+//    private int Health = 1000;
     private Handler handler;
 
     public Tower(ID id, Point point, Dimension dimension)
@@ -45,5 +45,8 @@ public class Tower extends GameObject
         else { Health = 1000; }
         }
 
-
+    /*    public Rectangle getbounds(){
+            return new Rectangle(point.x,point.y,dimension.width,dimension.height);
+        }
+    */
     }

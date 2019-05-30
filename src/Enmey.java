@@ -7,10 +7,12 @@ public class Enmey extends GameObject
     private int attackdmg;
     private Handler handler;
 
-    public Enmey(float x, float y, ID id, Handler handler)
+
+    public Enmey(ID id, Point point, Dimension dimension, Handler handler)
         {
         super(id, point, dimension);
         this.handler = handler;
+
         }
 
     public int getHealth()
@@ -36,12 +38,18 @@ public class Enmey extends GameObject
     @Override
     public void tick()
         {
+point.x+=velx;
 
         }
 
     @Override
     public void paint(Graphics g)
         {
+            g.setColor(Color.BLACK);
+            g.fillRect(100,100,100,100);
 
         }
+
+
+
     }

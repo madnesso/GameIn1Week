@@ -4,6 +4,9 @@ public abstract class GameObject
     {
     protected Point point;
     protected Dimension dimension;
+    protected int velx,vely;
+
+        protected int Health ;
     private ID id;
 
     public GameObject(ID id, Point point, Dimension dimension)
@@ -43,7 +46,13 @@ public abstract class GameObject
         this.dimension = dimension;
         }
 
-    public abstract void tick();
+        public Rectangle getbounds(){
+            return new Rectangle(point.x,point.y,dimension.width,dimension.height);
+        }
+
+
+
+        public abstract void tick();
 
     public abstract void paint(Graphics g);
 
