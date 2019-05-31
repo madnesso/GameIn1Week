@@ -1,5 +1,8 @@
-public enum ID
-    {enemy
-     ,tower
-        ,warior,healer,wizard
-    }
+public enum ID {
+    enemy,
+    archer,
+    warrior,
+    mage,
+    healer;
+            
+}
