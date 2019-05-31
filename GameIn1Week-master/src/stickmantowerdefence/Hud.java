@@ -6,8 +6,6 @@ public class Hud
     {
     private static int TowerHealth = 1000;
     private static int[] UnitHealth = new int[8];
-    private final int[] pointy = new int[8];
-    private final int[] pointx = new int[8];
     private Handler handler;
     private int[] Maxhealth = new int[8];
 
@@ -63,10 +61,15 @@ public class Hud
             }
         }
 
+    public int getMaxhealth(int i)
+        {
+        return Maxhealth[i];
+        }
+
     public void paint(Graphics g)
         {
         DrawHealth(15, 15, g, TowerHealth, 1000);
-        for (int i = 0; i < handler.objects.size(); i++)
+        for (int i = 0; i < 8; i++)
             {
             if (handler.objects.get(i) instanceof Units)
                 {
@@ -80,11 +83,11 @@ public class Hud
     public void DrawHealth(int x, int y, Graphics g, int health, int Maxhealth)
         {
         g.setColor(Color.gray);
-        g.fillRect(x, y, Maxhealth * 2, 30);
+        g.fillRect(x, y + 10, Maxhealth * 2, 15);
         g.setColor(Color.green);
-        g.fillRect(x, y, health * 2, 30);
+        g.fillRect(x, y + 10, health * 2, 15);
         g.setColor(Color.red);
-        g.drawRect(x, y, Maxhealth * 2, 30);
+        g.drawRect(x, y + 10, Maxhealth * 2, 15);
         }
 
     }
