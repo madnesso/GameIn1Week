@@ -1,54 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd90825-b401-4450-8742-16a421532a39" name="Default Changelist" comment="No idea what I am doing :3">
+    <list default="true" id="9dd90825-b401-4450-8742-16a421532a39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Hud.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Archer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataManger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Handler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IClamp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ID.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StickManTowerDefence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warrior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/GameObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Handler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/ID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Windows.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Healer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Worrior.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/dirty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/mage_temp.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Archer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataManger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enemey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Healer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IClamp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ID.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MouseInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Register.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Units.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Windows.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Worrior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/StickManTowerDefence.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/StickManTowerDefence.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +27,71 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/StickManTowerDefence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="456">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Hud.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="611">
+              <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+              <folding>
+                <element signature="method#getpoint#0;class#Hud#0" />
+                <element signature="method#getUnitHealth#0;class#Hud#0" />
+                <element signature="method#setUnitHealth#0;class#Hud#0" />
+                <element signature="method#DrawHealth#0;class#Hud#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Units.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/GameObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -89,6 +106,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getpoi</find>
+      <find>getobj</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,6 +139,9 @@
         <option value="$PROJECT_DIR$/src/Handler.java" />
         <option value="$PROJECT_DIR$/src/Shop.java" />
         <option value="$PROJECT_DIR$/GameIn1Week-master/untitled.iml" />
+        <option value="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Game.java" />
+        <option value="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/StickManTowerDefence.java" />
+        <option value="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Hud.java" />
       </list>
     </option>
   </component>
@@ -260,7 +286,7 @@
       <workItem from="1559248769974" duration="713000" />
       <workItem from="1559249510570" duration="1651000" />
       <workItem from="1559287016167" duration="1150000" />
-      <workItem from="1559331758317" duration="333000" />
+      <workItem from="1559331758317" duration="4729000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaning Up">
       <created>1559079047398</created>
@@ -402,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559249621333</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="No idea what I am doing :3">
+      <created>1559332189376</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1559332189376</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers>
       <GitHub url="https://github.com">
         <option name="repoAuthor" value="mandesso" />
@@ -411,7 +444,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30035000" />
+    <option name="totallyTimeSpent" value="34431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -663,10 +696,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/StickManTowerDefence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="456">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Units.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Hud.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+          <folding>
+            <element signature="method#getpoint#0;class#Hud#0" />
+            <element signature="method#getUnitHealth#0;class#Hud#0" />
+            <element signature="method#setUnitHealth#0;class#Hud#0" />
+            <element signature="method#DrawHealth#0;class#Hud#0" />
+          </folding>
         </state>
       </provider>
     </entry>
