@@ -9,9 +9,14 @@ import java.awt.Point;
 public class Mage extends Units implements IClamp{
     
     private float mana;
-    private boolean hasMana; 
     private float range;
     private float manaRegen;
+    private float maxMana;
+    private static float manaFactor;
+    private static float manaRegenFactor;
+    private static float healthFactor;
+    private static float rangeFactor;
+    private static float damageFactor;
     
     public Mage(Point point, Dimension dimension, ID id, int x, int y) {
         super(point, dimension, id);
@@ -19,12 +24,25 @@ public class Mage extends Units implements IClamp{
         this.setVelY(y);
     }
 
+    public static float getDamageFactor() {
+        return damageFactor;
+    }
+
+    public static void setDamageFactor(float damageFactor) {
+        if(damageFactor >= 4)
+            Mage.damageFactor = 4;
+        else if(damageFactor <= 1)
+            Mage.damageFactor = 1;
+        else 
+            Mage.damageFactor = damageFactor;
+    }
+
     public float getRange() {
         return range;
     }
 
     public void setRange(float range) {
-        this.range = clamp(range,0,100);
+        this.range = clamp(range,0,this.range+rangeFactor);
     }
 
     public float getManaRegen() {
@@ -32,7 +50,7 @@ public class Mage extends Units implements IClamp{
     }
 
     public void setManaRegen(float manaRegen) {
-        this.manaRegen = clamp(manaRegen,0,10);
+        this.manaRegen = clamp(manaRegen,0,this.manaRegen+manaRegenFactor);
     }
 
     public float getMana() {
@@ -40,17 +58,69 @@ public class Mage extends Units implements IClamp{
     }
 
     public void setMana(float mana) {
-        this.mana = clamp(mana,0,100);
+        this.mana = clamp(mana,0,maxMana+manaFactor);
     }
 
-    public boolean isHasMana() {
-        return hasMana;
+    public float getMaxMana() {
+        return maxMana;
     }
 
-    public void setHasMana(boolean hasMana) {
-        this.hasMana = hasMana;
+    public void setMaxMana(float maxMana) {
+        this.maxMana = maxMana;
     }
 
+    public static float getManaFactor() {
+        return manaFactor;
+    }
+
+    public static void setManaFactor(float manaFactor) {
+        if(manaFactor >= 4)
+            Mage.manaFactor = 4;
+        else if(manaFactor <= 1)
+            Mage.manaFactor = 1;
+        else 
+            Mage.manaFactor = manaFactor;
+    }
+
+    public static float getManaRegenFactor() {
+        return manaRegenFactor;
+    }
+
+    public static void setManaRegenFactor(float manaRegenFactor) {
+        if(manaRegenFactor >= 4)
+            Mage.manaRegenFactor = 4;
+        else if(manaRegenFactor <= 1)
+            Mage.manaRegenFactor = 1;
+        else 
+            Mage.manaRegenFactor = manaRegenFactor;
+    }
+
+    public static float getHealthFactor() {
+        return healthFactor;
+    }
+
+    public static float getRangeFactor() {
+        return rangeFactor;
+    }
+
+    public static void setRangeFactor(float rangeFactor) {
+        if(rangeFactor >= 4)
+            Mage.rangeFactor = 4;
+        else if(rangeFactor <= 1)
+            Mage.rangeFactor = 1;
+        else 
+            Mage.rangeFactor = rangeFactor;
+    }
+
+    public static void setHealthFactor(float healthFactor) {
+        if(healthFactor >= 4)
+            Mage.healthFactor = 4;
+        else if(healthFactor <= 1)
+            Mage.healthFactor = 1;
+        else 
+            Mage.healthFactor = healthFactor;
+    }
+    
     @Override
     public void tick() {
         this.getPoint().translate(this.getVelX(), this.getVelY());
@@ -67,7 +137,8 @@ public class Mage extends Units implements IClamp{
         {
             if(this.mana>0)
             {
-            return this.getAttackDmg();
+                this.setMana(this.getMana()-10);
+                return this.getAttackDmg();
             }
             return 0;
         }

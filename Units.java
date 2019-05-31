@@ -9,8 +9,8 @@ import java.awt.Point;
 public abstract class Units extends GameObject {
     
     private float Health;
+    private float maxHealth;
     private float AttackDmg;
-    private boolean AttackCd;
 
     public Units(Point point, Dimension dimension, ID id) {
         super(point, dimension, id);
@@ -21,12 +21,7 @@ public abstract class Units extends GameObject {
     }
 
     public void setHealth(float Health) {
-        if(Health >= 500)
-            this.Health = 500;
-        else if(Health <= 0)
-            this.Health = 0;
-        else 
-            this.Health = Health;
+        this.Health = Health;        
     }
 
     public float getAttackDmg() {
@@ -34,20 +29,15 @@ public abstract class Units extends GameObject {
     }
 
     public void setAttackDmg(float AttackDmg) {
-        if(AttackDmg >= 500)
-            this.AttackDmg = 500;
-        else if(AttackDmg <= 0)
-            this.AttackDmg = 0;
-        else 
-            this.Health = AttackDmg;
+        this.AttackDmg = AttackDmg;
     }
 
-    public boolean isAttackCd() {
-        return AttackCd;
+    public float getMaxHealth() {
+        return maxHealth;
     }
 
-    public void setAttackCd(boolean AttackCd) {
-        this.AttackCd = AttackCd;
+    public void setMaxHealth(float maxHealth) {
+        this.maxHealth = maxHealth;
     }
 
     @Override

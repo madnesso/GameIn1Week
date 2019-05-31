@@ -9,6 +9,15 @@ import java.util.ArrayList;
 public class Handler {
     
     private ArrayList<GameObject> objects = new ArrayList<>();
+    private int gold;
+
+    public int getGold() {
+        return gold;
+    }
+
+    public void setGold(int gold) {
+        this.gold = gold;
+    }
     
     public void tick()
     {
@@ -27,14 +36,14 @@ public class Handler {
     }
 
     public void addObject(GameObject object)
-        {
+    {
         objects.add(object);
-        }
+    }
 
     public void removeObject(GameObject object)
-        {
+    {
         objects.remove(object);
-        }
+    }
     
     public boolean collide(Rectangle r1,Rectangle r2){
 
@@ -101,6 +110,7 @@ public class Handler {
                             }
                             if(n == 0){
                                 objects.remove(tempObject);
+                                gold = gold + 25;
                             } 
                         }
                     }
@@ -220,7 +230,18 @@ public class Handler {
                     if (tempObject2.getId().equals("healer") || tempObject2.getId().equals("mage") || tempObject2.getId().equals("archer") || tempObject2.getId().equals("warrior"))
                     {
                         float x = ((Healer)tempObject2).Heal(Math.abs(tempObject.getPoint().x-tempObject2.getPoint().x));
-                        ((Units)tempObject2).setHealth(((Units)tempObject).getHealth()-x);
+                        if(tempObject2.getId().equals("healer")){
+                            ((Healer)tempObject2).setHealth(((Healer)tempObject).getHealth()-x);
+                        }
+                        if(tempObject2.getId().equals("mage")){
+                            ((Mage)tempObject2).setHealth(((Mage)tempObject).getHealth()-x);
+                        }
+                        if(tempObject2.getId().equals("archer")){
+                            ((Archer)tempObject2).setHealth(((Archer)tempObject).getHealth()-x);
+                        }
+                        if(tempObject2.getId().equals("warrior")){
+                            ((Warrior)tempObject2).setHealth(((Warrior)tempObject).getHealth()-x);
+                        }
                     }
                 }
             }

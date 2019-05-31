@@ -7,7 +7,8 @@ import java.awt.Point;
 
 public class Tower extends GameObject{
     
-    private float health = 1000;
+    private float health;
+    private float maxHealth;
 
     public float getHealth() {
         return health;
@@ -21,9 +22,17 @@ public class Tower extends GameObject{
         else 
             this.health = health;
     }
-
+    
     public Tower(Point point, Dimension dimention, ID id) {
         super(point, dimention, id);
+    }
+
+    public float getMaxHealth() {
+        return maxHealth;
+    }
+
+    public void setMaxHealth(float maxHealth) {
+        this.maxHealth = maxHealth;
     }
 
     @Override

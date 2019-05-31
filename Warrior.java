@@ -7,11 +7,61 @@ import java.awt.Point;
 
 
 public class Warrior extends Units implements IClamp{
+    
+    private static float healthFactor;
+    private static float damageFactor;
 
-    public Warrior(Point point, Dimension dimention, ID id, int x, int y) {
+    public Warrior(Point point, Dimension dimention, ID id) {
         super(point, dimention, id);
-        this.setVelX(x);
-        this.setVelY(y);
+        this.setMaxHealth(100);
+        this.setAttackDmg(10);
+        this.setHealth(this.getMaxHealth()+healthFactor);
+    }
+
+    @Override
+    public void setHealth(float health){
+        if(health >= this.getMaxHealth()+healthFactor)
+            this.setHealth(this.getMaxHealth()+healthFactor);
+        else if(health <= 0)
+            this.setHealth(0);
+        else 
+            this.setHealth(health);
+    }
+    
+    @Override
+    public void setAttackDmg(float damage){
+        if(damage >= this.getAttackDmg()+damageFactor)
+            this.setHealth(this.getAttackDmg()+damageFactor);
+        else if(damage <= 0)
+            this.setHealth(0);
+        else 
+            this.setHealth(damage);
+    }
+    
+    public static float getHealthFactor() {
+        return healthFactor;
+    }
+
+    public static void setHealthFactor(float healthFactor) {
+        if(healthFactor >= 4)
+            Warrior.healthFactor = 4;
+        else if(healthFactor <= 1)
+            Warrior.healthFactor = 1;
+        else 
+            Warrior.healthFactor = healthFactor;
+    }
+
+    public static float getDamageFactor() {
+        return damageFactor;
+    }
+
+    public static void setDamageFactor(float damageFactor) {
+        if(damageFactor >= 4)
+            Warrior.damageFactor = 4;
+        else if(damageFactor <= 1)
+            Warrior.damageFactor = 1;
+        else 
+            Warrior.damageFactor = damageFactor;
     }
 
     @Override
