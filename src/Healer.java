@@ -63,7 +63,8 @@ public class Healer extends Units implements IClamp{
         {
             if(this.mana>0)
             {
-            return this.heal;
+                this.mana--;
+                return this.heal;
             }
             return 0;
         }
