@@ -1,5 +1,4 @@
 
-package stickmantowerdefence;
 
 public interface IClamp {
     public float clamp(float var, float min, float max);
