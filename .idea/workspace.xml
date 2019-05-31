@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dd90825-b401-4450-8742-16a421532a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GameIn1Week-master/res/Enemy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameIn1Week-master/res/archer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameIn1Week-master/res/mage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/PictureLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameIn1Week-master/res/mage_temp.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Hud.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Hud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/PictureLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/PictureLoader.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/PictureLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="7" selection-start-line="7" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="312">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -278,7 +272,7 @@
       <workItem from="1559248769974" duration="713000" />
       <workItem from="1559249510570" duration="1651000" />
       <workItem from="1559287016167" duration="1150000" />
-      <workItem from="1559331758317" duration="7986000" />
+      <workItem from="1559331758317" duration="8245000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaning Up">
       <created>1559079047398</created>
@@ -434,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559336732792</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="I am scared :3">
+      <created>1559339979604</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1559339979604</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers>
       <GitHub url="https://github.com">
         <option name="repoAuthor" value="mandesso" />
@@ -443,10 +444,10 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37688000" />
+    <option name="totallyTimeSpent" value="37947000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
@@ -767,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/PictureLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="7" selection-start-line="7" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="312">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
