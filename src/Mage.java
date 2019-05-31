@@ -64,7 +64,8 @@ public class Mage extends Units implements IClamp{
         {
             if(this.mana>0)
             {
-            return this.getAttackDmg();
+                this.mana--;
+                return this.getAttackDmg();
             }
             return 0;
         }
