@@ -1,55 +1,53 @@
-import java.awt.*;
-
-//so far mafish fe dma8y 8er wa7d like a zombie horde cloae range walk slowly law lamess 7ad by3ml dmg ay 7ad tany 3ando afkar ?
-public class Enemey extends GameObject
-    {
-    private int health;
-    private int attackdmg;
-    private Handler handler;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Point;
 
 
-    public Enemey(ID id, Point point, Dimension dimension, Handler handler)
-        {
-        super(id, point, dimension);
-        this.handler = handler;
+public class Enemy extends GameObject implements IClamp{
+    
+    private float health;
+    private float attackdmg;
 
-        }
-
-    public int getHealth()
-        {
-        return health;
-        }
-
-    public void setHealth(int health)
-        {
-        this.health = health;
-        }
-
-    public int getAttackdmg()
-        {
-        return attackdmg;
-        }
-
-    public void setAttackdmg(int attackdmg)
-        {
-        this.attackdmg = attackdmg;
-        }
-
-
-    @Override
-    public void tick()
-        {
-        point.x += velx;
-
-        }
-
-    @Override
-    public void paint(Graphics g)
-        {
-        g.setColor(Color.BLACK);
-        g.fillRect(100, 100, 100, 100);
-
-        }
-
-
+    public Enemy(Point point, Dimension dimension, ID id, int x, int y) {
+        super(point, dimension, id);
+        this.setVelX(x);
+        this.setVelY(y);
     }
+
+    public float getHealth() {
+        return health;
+    }
+
+    public void setHealth(float health) {
+        this.health = clamp(health,0,100);
+    }
+
+    public float getAttackdmg() {
+        return attackdmg;
+    }
+
+    public void setAttackdmg(float attackdmg) {
+        this.attackdmg = clamp(attackdmg,0,100);
+    }
+
+    @Override
+    public void tick() {
+        this.getPoint().translate(this.getVelX(), this.getVelY());
+    }
+
+    @Override
+    public void paint(Graphics g) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public float clamp(float var, float min, float max) {
+        if(var >= max)
+            return var = max;
+        else if(var <= min)
+            return var = min;
+        else 
+            return var;
+    }   
+    
+}
