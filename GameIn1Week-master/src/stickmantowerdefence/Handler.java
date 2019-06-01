@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Handler
     {
 
-    private ArrayList<GameObject> objects = new ArrayList<>();
+    ArrayList<GameObject> objects = new ArrayList<>();
     private int gold;
 
     public int getGold()
@@ -167,7 +167,8 @@ public class Handler
                             }
                         else
                             {
-                            float x = ((Mage) tempObject2).mageDamage(Math.abs(tempObject.getPoint().x - tempObject2.getPoint().x));
+                            float x = ((Mage) tempObject2).mageDamage(Math.abs(
+                                    tempObject.getPoint().x - tempObject2.getPoint().x));
                             ((Enemy) tempObject).setHealth(((Enemy) tempObject).getHealth() - x);
                             if (((Enemy) tempObject).getHealth() == 0)
                                 {
@@ -206,7 +207,8 @@ public class Handler
                             }
                         else
                             {
-                            float x = ((Archer) tempObject2).archerDamage(Math.abs(tempObject.getPoint().x - tempObject2.getPoint().x));
+                            float x = ((Archer) tempObject2).archerDamage(Math.abs(
+                                    tempObject.getPoint().x - tempObject2.getPoint().x));
                             ((Enemy) tempObject).setHealth(((Enemy) tempObject).getHealth() - x);
                             if (((Enemy) tempObject).getHealth() == 0)
                                 {
@@ -224,9 +226,11 @@ public class Handler
                 {
                 for (GameObject tempObject2 : objects)
                     {
-                    if (tempObject2.getId().equals("healer") || tempObject2.getId().equals("mage") || tempObject2.getId().equals("archer") || tempObject2.getId().equals("warrior"))
+                    if (tempObject2.getId().equals("healer") || tempObject2.getId().equals("mage") ||
+                            tempObject2.getId().equals("archer") || tempObject2.getId().equals("warrior"))
                         {
-                        float x = ((Healer) tempObject2).Heal(Math.abs(tempObject.getPoint().x - tempObject2.getPoint().x));
+                        float x = ((Healer) tempObject2).Heal(Math.abs(
+                                tempObject.getPoint().x - tempObject2.getPoint().x));
                         if (tempObject2.getId().equals("healer"))
                             {
                             ((Healer) tempObject2).setHealth(((Healer) tempObject).getHealth() - x);

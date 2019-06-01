@@ -17,17 +17,16 @@ public class User implements Serializable
         this.password = password;
         }
 
-        public int getgold() {
-            return Gold;
+    public int getgold()
+        {
+        return Gold;
         }
 
-        public void setgold(int g) {
-            if(g >= 999999)
-                this.Gold= 999999;
-            else if(g <= 0)
-                this.Gold = 0;
-            else
-                this.Gold = g;
+    public void setgold(int g)
+        {
+        if (g >= 999999) { Gold = 999999; }
+        else if (g <= 0) { Gold = 0; }
+        else { Gold = g; }
         }
 
 
