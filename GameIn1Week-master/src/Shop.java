@@ -77,7 +77,7 @@ public class Shop extends MouseInput
         panel.add(Back);
         Back.addMouseListener(this);
         windows.add(panel, BorderLayout.CENTER);
-        windows.setVisible(true);
+        windows.setVisible(false);
         }
 
     @Override

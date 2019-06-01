@@ -28,7 +28,7 @@ public class MyMenu extends MouseInput
         Shop.addMouseListener(this);
         Logout.addMouseListener(this);
         windows.add(panel, BorderLayout.CENTER);
-        windows.setVisible(true);
+        windows.setVisible(false);
         }
 
     @Override
