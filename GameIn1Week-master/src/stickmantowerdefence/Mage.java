@@ -84,7 +84,7 @@ public class Mage extends stickmantowerdefence.Units implements stickmantowerdef
 
         try
             {
-            BufferedImage magg = ImageIO.read(new File("/pic/mage_temp.webp"));
+            BufferedImage magg = ImageIO.read(new File("/pic/mage.png"));
             g.drawImage(magg, getPoint().x, getPoint().y, getDimension().width, getDimension().height, null);
 
             } catch (IOException e)

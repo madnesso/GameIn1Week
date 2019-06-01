@@ -88,7 +88,7 @@ public class Healer extends stickmantowerdefence.Units implements stickmantowerd
 
         try
             {
-            BufferedImage healerr = ImageIO.read(new File("/pic/Healer.png"));
+            BufferedImage healerr = ImageIO.read(new File("/pic/healer.png"));
             g.drawImage(healerr, getPoint().x, getPoint().y, 128, 128, null);
 
             } catch (IOException e)
