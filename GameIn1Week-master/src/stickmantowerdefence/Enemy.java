@@ -1,10 +1,7 @@
 package stickmantowerdefence;
 
-import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 
 
 public class Enemy extends stickmantowerdefence.GameObject implements stickmantowerdefence.IClamp
@@ -59,15 +56,18 @@ public class Enemy extends stickmantowerdefence.GameObject implements stickmanto
         {
         //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
 
+
+        PictureLoader pl = new PictureLoader();
+        BufferedImage im;
         try
             {
-            BufferedImage worr = ImageIO.read(new File("/pic/enemy.png"));
-            g.drawImage(worr, getPoint().x, getPoint().y, getDimension().width, getDimension().height, null);
-
-            } catch (IOException e)
+            im = pl.loadiamge("/pic/enemy.png");
+            g.drawImage(im, getPoint().x, getPoint().y, getDimension().width, getDimension().height, null);
+            } catch (Exception e)
             {
+
             g.setColor(Color.cyan);
-            g.drawRect(getPoint().x, getPoint().y, getDimension().width, getDimension().height);
+            g.fillRect(getPoint().x, getPoint().y, getDimension().width, getDimension().height);
 
             }
 
