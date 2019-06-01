@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9dd90825-b401-4450-8742-16a421532a39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameIn1Week-master/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameIn1Week-master/src/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Shop.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,109 +19,54 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/PictureLoader.java">
+        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="14" column="61" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="61" />
+            <state relative-caret-position="1716">
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1458#1459#0" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
+                <element signature="e#1805#1806#0" expanded="true" />
+                <element signature="e#1878#1879#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Warrior.java">
+        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="43" column="9" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Windows.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="418">
+              <caret line="48" column="32" selection-start-line="47" selection-start-column="8" selection-end-line="48" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Archer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="65" lean-forward="true" selection-end-line="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Healer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Enemy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="32" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="74" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Tower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-698">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Mage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1467">
-              <caret line="91" column="35" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-528">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="546">
+              <caret line="142" column="17" lean-forward="true" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
               <folding>
-                <element signature="method#upgradeattack#0;class#Shop#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#4193#4194#0" expanded="true" />
+                <element signature="e#4314#4315#0" expanded="true" />
+                <element signature="e#4430#4431#0" expanded="true" />
+                <element signature="e#4551#4552#0" expanded="true" />
+                <element signature="e#4675#4676#0" expanded="true" />
+                <element signature="e#4796#4797#0" expanded="true" />
+                <element signature="e#4911#4912#0" expanded="true" />
+                <element signature="e#5029#5030#0" expanded="true" />
+                <element signature="e#5141#5142#0" expanded="true" />
+                <element signature="e#5259#5260#0" expanded="true" />
+                <element signature="e#5368#5369#0" expanded="true" />
+                <element signature="e#5482#5483#0" expanded="true" />
+                <element signature="e#5602#5603#0" expanded="true" />
+                <element signature="e#5728#5729#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Units.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -139,6 +86,7 @@
     <findStrings>
       <find>getobj</find>
       <find>getpoi</find>
+      <find>h</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,8 +123,10 @@
         <option value="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Healer.java" />
         <option value="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Enemy.java" />
         <option value="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Mage.java" />
-        <option value="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Shop.java" />
         <option value="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Archer.java" />
+        <option value="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Login.java" />
+        <option value="$PROJECT_DIR$/GameIn1Week-master/src/Login.java" />
+        <option value="$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Shop.java" />
       </list>
     </option>
   </component>
@@ -281,8 +231,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
-    <property name="settings.editor.splitter.proportion" value="0.14871438" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.splitter.proportion" value="0.16458334" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -357,7 +307,7 @@
       <workItem from="1559249510570" duration="1651000" />
       <workItem from="1559287016167" duration="1150000" />
       <workItem from="1559331758317" duration="9735000" />
-      <workItem from="1559373000574" duration="2764000" />
+      <workItem from="1559373000574" duration="6624000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaning Up">
       <created>1559079047398</created>
@@ -541,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559374607189</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="adding 7agat mohamed &lt;3">
+      <created>1559377344161</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1559377344161</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers>
       <GitHub url="https://github.com">
         <option name="repoAuthor" value="mandesso" />
@@ -550,7 +507,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42201000" />
+    <option name="totallyTimeSpent" value="46061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -612,7 +569,8 @@
     <MESSAGE value="Updating Point and Dimension idea..." />
     <MESSAGE value="No idea what I am doing :3" />
     <MESSAGE value="I am scared :3" />
-    <option name="LAST_COMMIT_MESSAGE" value="I am scared :3" />
+    <MESSAGE value="adding 7agat mohamed &lt;3" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding 7agat mohamed &lt;3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/java/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
@@ -740,8 +698,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Healer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+        <state relative-caret-position="1804">
+          <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Tower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2403">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -755,10 +741,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Warrior.java">
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Archer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="512">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1342#1343#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#2378#2379#0" expanded="true" />
+            <element signature="e#2451#2452#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -769,42 +770,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Tower.java">
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Warrior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-698">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="1716">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Mage.java">
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1467">
-          <caret line="91" column="35" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="48" column="32" selection-start-line="47" selection-start-column="8" selection-end-line="48" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="method#upgradeattack#0;class#Shop#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameIn1Week-master/src/stickmantowerdefence/Archer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="65" lean-forward="true" selection-end-line="78" />
+        <state relative-caret-position="546">
+          <caret line="142" column="17" lean-forward="true" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#4193#4194#0" expanded="true" />
+            <element signature="e#4314#4315#0" expanded="true" />
+            <element signature="e#4430#4431#0" expanded="true" />
+            <element signature="e#4551#4552#0" expanded="true" />
+            <element signature="e#4675#4676#0" expanded="true" />
+            <element signature="e#4796#4797#0" expanded="true" />
+            <element signature="e#4911#4912#0" expanded="true" />
+            <element signature="e#5029#5030#0" expanded="true" />
+            <element signature="e#5141#5142#0" expanded="true" />
+            <element signature="e#5259#5260#0" expanded="true" />
+            <element signature="e#5368#5369#0" expanded="true" />
+            <element signature="e#5482#5483#0" expanded="true" />
+            <element signature="e#5602#5603#0" expanded="true" />
+            <element signature="e#5728#5729#0" expanded="true" />
           </folding>
         </state>
       </provider>
