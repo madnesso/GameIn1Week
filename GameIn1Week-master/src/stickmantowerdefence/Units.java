@@ -7,12 +7,10 @@ import java.awt.Point;
 
 
 public abstract class Units extends GameObject {
-
-    private float Maxhealth;
+    
     private float Health;
+    private float maxHealth;
     private float AttackDmg;
-    protected float attackinc=0;
-    private boolean AttackCd;
 
     public Units(Point point, Dimension dimension, ID id) {
         super(point, dimension, id);
@@ -23,49 +21,23 @@ public abstract class Units extends GameObject {
     }
 
     public void setHealth(float Health) {
-        if(Health >= Maxhealth)
-            this.Health = Maxhealth;
-        else if(Health <= 0)
-            this.Health = 0;
-        else 
-            this.Health = Health;
+        this.Health = Health;        
     }
-
-
-    public float getMaxhealth() {
-        return Maxhealth;
-    }
-
-    public void setMaxhealth(float maxhealth) {
-        if(maxhealth >= 1500)
-            this.Maxhealth = 1500;
-        else if(maxhealth<= 500)
-            this.Maxhealth = 500;
-        else
-            this.Maxhealth = maxhealth;
-    }
-
-
 
     public float getAttackDmg() {
         return AttackDmg;
     }
 
     public void setAttackDmg(float AttackDmg) {
-        if(AttackDmg+attackinc >= 500)
-            this.AttackDmg = 500;
-        else if(AttackDmg <= 0)
-            this.AttackDmg = 0;
-        else
-            this.AttackDmg= AttackDmg+attackinc;
+        this.AttackDmg = AttackDmg;
     }
 
-    public boolean isAttackCd() {
-        return AttackCd;
+    public float getMaxHealth() {
+        return maxHealth;
     }
 
-    public void setAttackCd(boolean AttackCd) {
-        this.AttackCd = AttackCd;
+    public void setMaxHealth(float maxHealth) {
+        this.maxHealth = maxHealth;
     }
 
     @Override

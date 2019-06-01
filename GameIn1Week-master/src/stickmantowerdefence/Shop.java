@@ -1,69 +1,62 @@
+
 package stickmantowerdefence;
-public class Shop
+
+public class Shop {
+    
+    public void upgradeWarriorHealth()
     {
-
-private Handler hand;
-private User u;
-
-public Shop(Handler h,User us){
-    hand=h;
-u=us;
-}
-        public void upgradeMaxhealth(ID id) {
-
-            if (u.getgold()>5000) {
-
-                for (GameObject tempObject : hand.objects) {
-                    if (tempObject.getId().equals(id)) {
-                        if (id.equals(ID.warrior)) {
-                            ((stickmantowerdefence.Warrior) tempObject).setMaxhealth(1000);
-                        }
-
-                        if (id.equals(ID.archer)) {
-                            ((stickmantowerdefence.Archer) tempObject).setMaxhealth(600);
-                        }
-
-                        if (id.equals(ID.mage)) {
-                            ((stickmantowerdefence.Mage) tempObject).setMaxhealth(700);
-                        }
-
-                        if (id.equals(ID.healer)) {
-                            ((stickmantowerdefence.Healer) tempObject).setMaxhealth(800);
-                        }
-
-                        if (id.equals(ID.tower)) {
-                            ((stickmantowerdefence.Tower) tempObject).setMaxhealth(3000);
-                        }
-
-
-                    }
-                }
-            }
-            }
-
-
-
-        public void upgradeattack(ID id){
-
-            if (u.getgold()>10000) {
-                for (GameObject tempObject : hand.objects) {
-                    if (tempObject.getId().equals(id)) {
-                        if (id.equals(ID.warrior)) {
-                            ((Warrior) tempObject).attackinc = 200;
-                        }
-
-                        if (id.equals(ID.archer)) {
-                            ((stickmantowerdefence.Archer) tempObject).attackinc = 100;
-                        }
-
-                        if (id.equals(ID.mage)) {
-                            ((stickmantowerdefence.Mage) tempObject).attackinc = 100;
-                        }
-
-                    }
-                }
-            }
-        }
-
-
+        Warrior.setHealthFactor(Warrior.getHealthFactor()+1);
     }
+    
+    public void upgradMageHeath(){
+        Mage.setHealthFactor(Mage.getHealthFactor()+1);
+    }
+    
+    public void upgradeArcherHealth(){
+        Archer.setHealthFactor(Archer.getHealthFactor()+1);
+    }
+    
+    public void upgradeHealerHealth(){
+        Healer.setHealthFactor(Healer.getHealthFactor()+1);
+    }
+    
+    public void upgradeMageMana(){
+        Mage.setManaFactor(Mage.getManaFactor()+1);
+    }
+    
+    public void upgradeMageRegen(){
+        Mage.setManaRegenFactor(Mage.getManaRegenFactor()+1);
+    }
+    
+    public void upgradeHealerMana(){
+        Healer.setManaFactor(Mage.getManaFactor()+50);
+    }
+    
+    public void upgradeHealerRegen(){
+        Healer.setManaRegenFactor(Healer.getManaRegenFactor()+1);
+    }
+    
+    public void upgradeArcherRange(){
+        Archer.setRangeFactor(Archer.getRangeFactor()+1);
+    }
+    
+    public void upgradeMageRange(){
+        Mage.setRangeFactor(Mage.getRangeFactor()+1);
+    }
+    
+    public void upgradeHealerRange(){
+        Healer.setRangeFactor(Healer.getRangeFactor()+1);
+    }
+    
+    public void upgradeWarriorDamage(){
+        Warrior.setDamageFactor(Warrior.getDamageFactor()+1);
+    }
+    
+    public void upgradeMageDamage(){
+        Mage.setDamageFactor(Mage.getDamageFactor()+1);
+    }
+    
+    public void upgradeArcherDamage(){
+        Archer.setDamageFactor(Archer.getDamageFactor()+1);
+    }
+}
