@@ -3,7 +3,7 @@ package stickmantowerdefence;
 public class StickManTowerDefence implements Runnable
     {
 
-    private boolean running = true;
+    private boolean running;
     private Thread thread;
     private Handler handler;
 
@@ -16,18 +16,10 @@ public class StickManTowerDefence implements Runnable
         {
         while (running)
             {
-            start();
             tick();
             paint();
             }
         stop();
-        }
-
-    public synchronized void start()
-        {
-        thread = new Thread(this);
-        thread.start();
-        running = true;
         }
 
     public void tick()
@@ -50,6 +42,13 @@ public class StickManTowerDefence implements Runnable
             {
             e.printStackTrace();
             }
+        }
+
+    public synchronized void start()
+        {
+        thread = new Thread(this);
+        thread.start();
+        running = true;
         }
 
     }

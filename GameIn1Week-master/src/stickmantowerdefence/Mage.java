@@ -1,87 +1,115 @@
-
 package stickmantowerdefence;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 
 
-public class Mage extends stickmantowerdefence.Units implements stickmantowerdefence.IClamp {
-    
+public class Mage extends stickmantowerdefence.Units implements stickmantowerdefence.IClamp
+    {
+
     private float mana;
-    private boolean hasMana; 
+    private boolean hasMana;
     private float range;
     private float manaRegen;
-    
-    public Mage(Point point, Dimension dimension, stickmantowerdefence.ID id, int x, int y) {
+
+    public Mage(Point point, Dimension dimension, stickmantowerdefence.ID id, int x, int y)
+        {
         super(point, dimension, id);
-        this.setVelX(x);
-        this.setVelY(y);
-    }
+        setVelX(x);
+        setVelY(y);
+        }
 
-    public float getRange() {
+    public float getRange()
+        {
         return range;
-    }
+        }
 
-    public void setRange(float range) {
-        this.range = clamp(range,0,100);
-    }
+    public void setRange(float range)
+        {
+        this.range = clamp(range, 0, 100);
+        }
 
-    public float getManaRegen() {
+    @Override
+    public float clamp(float var, float min, float max)
+        {
+        if (var >= max) { return var = max; }
+        else if (var <= min) { return var = min; }
+        else { return var; }
+        }
+
+    public float getManaRegen()
+        {
         return manaRegen;
-    }
+        }
 
-    public void setManaRegen(float manaRegen) {
-        this.manaRegen = clamp(manaRegen,0,10);
-    }
+    public void setManaRegen(float manaRegen)
+        {
+        this.manaRegen = clamp(manaRegen, 0, 10);
+        }
 
-    public float getMana() {
+    public float getMana()
+        {
         return mana;
-    }
+        }
 
-    public void setMana(float mana) {
-        this.mana = clamp(mana,0,100);
-    }
+    public void setMana(float mana)
+        {
+        this.mana = clamp(mana, 0, 100);
+        }
 
-    public boolean isHasMana() {
+    public boolean isHasMana()
+        {
         return hasMana;
-    }
+        }
 
-    public void setHasMana(boolean hasMana) {
+    public void setHasMana(boolean hasMana)
+        {
         this.hasMana = hasMana;
-    }
+        }
 
     @Override
-    public void tick() {
-        this.getPoint().translate(this.getVelX(), this.getVelY());
-        this.mana += manaRegen;
-    }
-
-    @Override
-    public void paint(Graphics g) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
-    public float mageDamage(float rangeDiff){
-        if(this.range > rangeDiff)
+    public void tick()
         {
-            if(this.mana>0)
+        getPoint().translate(getVelX(), getVelY());
+        mana += manaRegen;
+        }
+
+    @Override
+    public void paint(Graphics g)
+        {
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
+        try
             {
-            return this.getAttackDmg();
-            }
-            return 0;
-        }
-        else 
-        {
-            return 0;
-        }
-    }
+            BufferedImage magg = ImageIO.read(new File("/pic/mage_temp.webp"));
+            g.drawImage(magg, getPoint().x, getPoint().y, getDimension().width, getDimension().height, null);
 
-    @Override
-    public float clamp(float var, float min, float max) {
-        if(var >= max)
-            return var = max;
-        else if(var <= min)
-            return var = min;
-        else 
-            return var;
+            } catch (IOException e)
+            {
+            g.setColor(Color.cyan);
+            g.drawRect(getPoint().x, getPoint().y, getDimension().width, getDimension().height);
+
+            }
+
+
+        }
+
+    public float mageDamage(float rangeDiff)
+        {
+        if (range > rangeDiff)
+            {
+            if (mana > 0)
+                {
+                return getAttackDmg();
+                }
+            return 0;
+            }
+        else
+            {
+            return 0;
+            }
+        }
     }
-}
