@@ -1,4 +1,6 @@
-package stickmantowerdefence;
+import stickmantowerdefence.MouseInput;
+import stickmantowerdefence.Windows;
+import stickmantowerdefence.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,8 +8,8 @@ import java.awt.event.MouseEvent;
 
 public class Shop extends MouseInput
     {
-    private Windows windows;
-    private Menu menu;
+    public Windows windows;
+    private MyMenu myMenu;
     private JLabel wor = new JLabel("Worrior"), mage = new JLabel("Mage"), healer = new JLabel("Healer"), archer =
             new JLabel("Archer");
     private JButton[] Health;
@@ -18,9 +20,9 @@ public class Shop extends MouseInput
     private JButton Back;
     private JPanel panel;
 
-    public Shop(Menu menu)
+    public Shop(MyMenu myMenu)
         {
-        this.menu = menu;
+        this.myMenu = myMenu;
         Health = new JButton[4];
         Mana = new JButton[4];
         ManaReg = new JButton[4];
@@ -28,7 +30,7 @@ public class Shop extends MouseInput
         Damage = new JButton[4];
         Back = new JButton();
         panel = new JPanel(new GridLayout(5, 6));
-        windows = new Windows(600, 600, "Login");
+        windows = new Windows(600, 600, "Shop");
         for (int i = 0; i < 4; i++)
             {
             Health[i] = new JButton("add Health");
@@ -140,7 +142,8 @@ public class Shop extends MouseInput
             }
         if (tempbtn == Back)
             {
-            //open the menu
+            myMenu.windows.setVisible(true);
+            windows.setVisible(false);
             }
         }
 

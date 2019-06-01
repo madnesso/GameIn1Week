@@ -1,5 +1,3 @@
-import stickmantowerdefence.Menu;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
@@ -8,16 +6,16 @@ public class Login extends MouseInput
     {
     Windows windows;
     //  private Register register;
-    private stickmantowerdefence.Menu menu;
+    private MyMenu myMenu;
     private DataManger dm;
     private JLabel idlbl = new JLabel("ID"), userlbl = new JLabel("Username"), passwordlbl = new JLabel("Passwrod");
     private JTextArea idtxt, usertxt, passwordtxt;
     private JButton loginbtn, registerbtn;
     private JPanel panel;
 
-    Login(Menu menu, DataManger dm)
+    Login(MyMenu myMenu, DataManger dm)
         {
-        this.menu = menu;
+        this.myMenu = myMenu;
         //   this.register = register;
         this.dm = dm;
 
@@ -50,7 +48,8 @@ public class Login extends MouseInput
             {
             if (dm.check(usertxt.getText(), passwordtxt.getText()).equals("User exists"))
                 {
-
+                myMenu.windows.setVisible(true);
+                windows.setVisible(false);
                 }
             else { System.out.println(dm.check(usertxt.getText(), passwordtxt.getText())); }
             }
