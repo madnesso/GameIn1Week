@@ -41,13 +41,5 @@ public class GameWindow extends JPanel{
         thread.start();
     }
     
-/*    public synchronized void stop() throws InterruptedException
-    {
-        try{
-        thread.join();
-        catch(Exception e)
-        {
-            e.printStackTrace();
-        }
-    }*/
+
 }

@@ -31,11 +31,11 @@ public class Healer extends Units implements IClamp{
     @Override
     public void setHealth(float health){
         if(health >= this.getMaxHealth()+healthFactor)
-            this.setHealth(this.getMaxHealth()+healthFactor);
+            this.Health=this.getMaxHealth()+healthFactor;
         else if(health <= 0)
-            this.setHealth(0);
+            this.Health=0;
         else 
-            this.setHealth(health);
+            this.Health=health;
     }
     
     public float getManaRegen() {

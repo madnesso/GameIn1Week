@@ -26,21 +26,21 @@ public class Archer extends Units implements IClamp{
     @Override
     public void setHealth(float health){
         if(health >= this.getMaxHealth()+healthFactor)
-            this.setHealth(this.getMaxHealth()+healthFactor);
+            this.Health=this.getMaxHealth()+healthFactor;
         else if(health <= 0)
-            this.setHealth(0);
+            this.Health=0;
         else 
-            this.setHealth(health);
+            this.Health=health;
     }
     
     @Override
     public void setAttackDmg(float damage){
         if(damage >= this.getAttackDmg()+damageFactor)
-            this.setHealth(this.getAttackDmg()+damageFactor);
+            this.AttackDmg=this.getAttackDmg()+damageFactor;
         else if(damage <= 0)
-            this.setHealth(0);
+            this.AttackDmg=0;
         else 
-            this.setHealth(damage);
+            this.AttackDmg=damage;
     }
     
     public float getRange() {

@@ -36,7 +36,7 @@ public class Hud {
 //
 //        }
 
-    public static int getTowerHealth()
+ /*  public static int getTowerHealth()
         {
         return TowerHealth;
         }
@@ -67,7 +67,7 @@ public class Hud {
         {
         return Maxhealth[i];
         }
-
+*/
     public void paint(Graphics g)
         {
         DrawHealth(15, 15, g, TowerHealth, 1000);

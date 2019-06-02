@@ -35,6 +35,34 @@ public class Handler {
             }
     }
 
+   public int getObjectPosition(GameObject object){
+       if(objectExist(object)== true)
+       {
+           for(int i=0;i<objects.size();i++){
+            if(objects.get(i).equals(objects))
+                return i;
+            }
+       }
+        return -1;
+   }
+    
+    public int getObjectCount(GameObject object){
+        int counter =0;
+        for(int i=0;i<objects.size();i++){
+            if(objects.get(i).getId().equals(object.getId()))
+                counter++;
+        }
+        return counter;
+    }
+    
+    public boolean objectExist(GameObject object){
+        for(int i=0;i<objects.size();i++){
+            if(objects.get(i).equals(objects))
+                return true;
+        }
+        return false;
+    }
+    
     public void addObject(GameObject object)
     {
         objects.add(object);

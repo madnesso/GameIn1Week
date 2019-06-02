@@ -53,14 +53,15 @@ public class Enemy extends GameObject implements IClamp{
         
         try
             {
-            im = pl.loadiamge("/pic/enemy.png");
+            im = pl.loadiamge("C:\\Users\\el delar\\Documents\\NetBeansProjects\\StickManTowerDefence\\res\\pic\\enemy.png");
             g.drawImage(im, getPoint().x, getPoint().y, getDimension().width, getDimension().height, null);
             } catch (Exception e)
             {
+                e.printStackTrace();
             g.setColor(Color.cyan);
             g.fillRect(getPoint().x, getPoint().y, getDimension().width, getDimension().height);
             }
-this.getPoint().translate(this.getVelX(), this.getVelY());
+        this.getPoint().translate(this.getVelX(), this.getVelY());
     }
 
     @Override

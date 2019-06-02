@@ -2,6 +2,7 @@
 package stickmantowerdefence;
 
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
@@ -13,7 +14,7 @@ public class PictureLoader {
         {
         try
             {
-            image = ImageIO.read(getClass().getResource(path));
+            image = ImageIO.read(new File(path));
             } catch (IOException e)
             {
             e.printStackTrace();

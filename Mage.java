@@ -124,6 +124,27 @@ public class Mage extends Units implements IClamp{
     }
     
     @Override
+    public void setAttackDmg(float damage){
+        if(damage >= this.getAttackDmg()+damageFactor)
+            this.AttackDmg=this.getAttackDmg()+damageFactor;
+        else if(damage <= 0)
+            this.AttackDmg=0;
+        else 
+            this.AttackDmg=damage;
+    }
+    
+    @Override
+    public void setHealth(float health){
+        if(health >= this.getMaxHealth()+healthFactor)
+            this.Health=this.getMaxHealth()+healthFactor;
+        else if(health <= 0)
+            this.Health=0;
+        else 
+            this.Health=health;
+    }
+
+    
+    @Override
     public void tick() {
         this.getPoint().translate(this.getVelX(), this.getVelY());
         this.mana += manaRegen;

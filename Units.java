@@ -8,9 +8,9 @@ import java.awt.Point;
 
 public abstract class Units extends GameObject {
     
-    private float Health;
-    private float maxHealth;
-    private float AttackDmg;
+    protected float Health;
+    protected float maxHealth;
+    protected float AttackDmg;
 
     public Units(Point point, Dimension dimension, ID id) {
         super(point, dimension, id);
