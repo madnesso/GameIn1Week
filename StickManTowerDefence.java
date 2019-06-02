@@ -1,47 +1,39 @@
 
 package stickmantowerdefence;
 
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Point;
-import java.io.File;
-import java.util.Random;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
 
-public class StickManTowerDefence implements Runnable{
+import java.io.File;
+import javax.swing.JComponent;
+import javax.swing.JLabel;
+
+public class StickManTowerDefence extends JComponent implements Runnable{
 
     private boolean running;
     private Thread thread;
     private Handler handler;
     private Windows gameWindow;
-    private Random random = new Random();
-    private Hud hud;
     private Login login;
     private MyMenu menu;
+    private Hud hud;
     private ShopWindow shop;
     private DataManger manger;
     private File myFile = new File("Data.bin");
-    private Graphics g;
-    private JPanel panel = new JPanel(true);
+
+    private GameWindow panel ;
     private JLabel x = new JLabel("hi");
     
     public StickManTowerDefence() {
         this.handler = new Handler();
         this.thread = new Thread();
+        this.panel = new GameWindow(handler, hud, thread);
         this.manger = new DataManger(myFile);
-        this.hud = new Hud(handler);
         this.menu = new MyMenu();
         this.login = new Login(manger);
         this.shop = new ShopWindow();
         this.gameWindow = new Windows(1920, 1080, "StickMan Tower Defence");
         gameWindow.setVisible(false);
-        for(int i=0;i<8;i++)
-        {
-            handler.addObject(new Enemy(new Point(random.nextInt(500),random.nextInt(100)), new Dimension(221,440), ID.enemy, 2, 2));
-        }
         gameWindow.add(panel);
-        panel.paint(g);
+        
         
     }
     
@@ -53,7 +45,12 @@ public class StickManTowerDefence implements Runnable{
         gameWindow.setVisible(false);
         while(running){
             tick();
-            paint(g);
+            panel.start();
+            try{
+                Thread.sleep(10);
+            }catch(Exception e){
+                e.printStackTrace();
+            }
         }
         stop();
     }
@@ -90,13 +87,8 @@ public class StickManTowerDefence implements Runnable{
             shop.windows.setVisible(false);
             gameWindow.setVisible(false);
             shop.setDone(false);
-
+       
         }
-    }
-    
-    public void paint(Graphics g){
-        handler.paint(g);
-        hud.paint(g);
     }
     
     public synchronized void start()

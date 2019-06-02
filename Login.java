@@ -82,6 +82,7 @@ public class Login extends MouseInput
                     break;
                 case "User added succesfully":
                     done = true;
+                    dm.saveUsers();
                     break;
                 default:
                     break;
